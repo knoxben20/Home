@@ -1,0 +1,161 @@
+*{
+    box-sizing:border-box;
+}
+.container {
+    overflow: auto;
+}
+a:link{
+    color:cyan
+}
+a:hover{
+    color:orangered;
+    font-size: 1.1em;
+}
+a:active{
+    color:orange;
+    font-size: 1.1em;
+}
+a:visited{
+    color: cyan;
+}
+img{
+    width: 100px;
+    height: 100px;
+    align-content: center;
+}
+#virus:hover{
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+}
+#john{
+    width: 800px;
+    height: 700px;
+}
+#pepe{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: auto;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+}
+#pepe:hover{
+    animation-name: slideRight;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+}
+#pepe-lonely{
+    width: 800px;
+    height: 700px;
+}
+#pepe-lonely:hover{
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+}
+#smug-frog{
+    width: 100px;
+    height: 100px;
+    opacity: 0;
+}
+#smug-frog:hover{
+    opacity: 100;
+    animation-name: fade;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+}
+#john:hover{
+    animation-name: glow;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-play-state: running;
+}
+#name:hover{
+    color:red;
+}
+body{
+    margin: 0;
+    background-color:black;
+}
+main{
+    background-color:black;
+    padding: 2px;
+    margin: 0;
+}
+div{
+    background-color:black;
+    color:rgb(0, 255, 175);
+    margin: auto;
+    border: 2px solid rgb(0, 255, 175);
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+    height: 150px;
+    padding: 5px;
+}
+section{
+    background-color:black;
+    color:rgb(0, 255, 175);
+    margin: auto;
+    border: 2px solid rgb(0, 255, 175);
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    place-items: center;
+    align-items: center;
+    height: 800px;
+    padding: 5px;
+}
+p{
+    text-align:center;
+}
+@keyframes slideLeft{
+    from{transform: translateX(300%)}
+}
+@keyframes slideRight{
+    to{transform: translateX(300%)}
+}
+@keyframes slideUp{
+    from{transform: translateY(300%)}
+}
+@keyframes slideDown{
+    to{transform: translateY(300%)}
+}
+@keyframes rotate{
+    25%{transform: rotateX(360deg)}
+}
+@keyframes grow{
+    100%{transform: scale(2, 2)}
+}
+@keyframes shrink{
+    50%{transform: scale(0.5, 0.5)}
+}
+@keyframes fade{
+    50%{opacity: 0}
+}
+@keyframes colorChange{
+    0%{background-color:red}
+    20%{background-color:blue}
+    40%{background-color:green}
+    60%{background-color:yellow}
+    80%{background-color:indigo}
+    100%{background-color:aqua}
+}
+@keyframes glow{
+    50%{box-shadow: 0px 0px 50px yellow}
+}
