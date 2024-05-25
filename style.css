@@ -172,6 +172,7 @@ p{
     top: 0;
     bottom: 0;
     margin: auto;
+    font-size: 8vw;
     text-align:center;
 }
 @keyframes slideLeft{
