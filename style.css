@@ -21,14 +21,9 @@ a:visited{
 img{
     width:5%;
     height:5%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
     margin: auto;
     align-content: center;
-	place-items: center;
+    place-items: center;
 }
 #virus:hover{
     animation-name: grow;
@@ -40,21 +35,11 @@ img{
 #john{
     width:40%;
     height:40%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
     margin: auto;
 }
 #pepe{
     width:10%;
     height:10%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
     margin: auto;
     padding: 10px;
     animation-name: rotate;
@@ -73,11 +58,6 @@ img{
 #pepe-lonely{
     width:80%;
     height:75%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
     margin: auto;
 }
 #pepe-lonely:hover{
@@ -90,11 +70,6 @@ img{
 #smug-frog{
     width:10%;
     height:10%;
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
     margin: auto;
     opacity: 0;
 }
@@ -127,11 +102,6 @@ main{
     margin: 0;
 }
 div{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
     margin: auto;
     background-color:black;
     color:rgb(0, 255, 175);
@@ -146,11 +116,6 @@ div{
     padding: 5px;
 }
 section{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
     margin: auto;
     background-color:black;
     color:rgb(0, 255, 175);
@@ -166,11 +131,6 @@ section{
     padding: 5px;
 }
 p{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
     margin: auto;
     font-size: 8vw;
     text-align:center;
