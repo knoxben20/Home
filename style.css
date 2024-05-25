@@ -19,7 +19,7 @@ a:visited{
     color: cyan;
 }
 img{
-    width:5%;
+    width:10%;
     height:10%;
     margin: auto;
     align-content: center;
@@ -34,7 +34,7 @@ img{
 }
 #john{
     width:45%;
-    height:60%;
+    height:70%;
     margin: auto;
 }
 #pepe{
@@ -57,7 +57,7 @@ img{
 }
 #pepe-lonely{
     width:45%;
-    height:60%;
+    height:70%;
     margin: auto;
 }
 #pepe-lonely:hover{
@@ -68,7 +68,7 @@ img{
     animation-play-state: running;
 }
 #smug-frog{
-    width:5%;
+    width:10%;
     height:10%;
     margin: auto;
     opacity: 0;
