@@ -19,8 +19,8 @@ a:visited{
     color: cyan;
 }
 img{
-    width:8%;
-    height:8%;
+    width:5%;
+    height:10%;
     margin: auto;
     align-content: center;
     place-items: center;
@@ -33,13 +33,13 @@ img{
     animation-play-state: running;
 }
 #john{
-    width:40%;
-    height:40%;
+    width:45%;
+    height:60%;
     margin: auto;
 }
 #pepe{
-    width:8%;
-    height:8%;
+    width:5%;
+    height:10%;
     margin: auto;
     padding: 10px;
     animation-name: rotate;
@@ -56,8 +56,8 @@ img{
     animation-play-state: running;
 }
 #pepe-lonely{
-    width:40%;
-    height:40%;
+    width:45%;
+    height:60%;
     margin: auto;
 }
 #pepe-lonely:hover{
@@ -68,8 +68,8 @@ img{
     animation-play-state: running;
 }
 #smug-frog{
-    width:8%;
-    height:8%;
+    width:5%;
+    height:10%;
     margin: auto;
     opacity: 0;
 }
