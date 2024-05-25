@@ -19,9 +19,16 @@ a:visited{
     color: cyan;
 }
 img{
-    width:10%;
-    height:10%;
+    width:5%;
+    height:5%;
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     align-content: center;
+	place-items: center;
 }
 #virus:hover{
     animation-name: grow;
@@ -31,14 +38,25 @@ img{
     animation-play-state: running;
 }
 #john{
-    width:80%;
-    height:75%;
+    width:40%;
+    height:40%;
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 #pepe{
     width:10%;
     height:10%;
-    padding: 10px;
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
     margin: auto;
+    padding: 10px;
     animation-name: rotate;
     animation-duration: 2s;
     animation-iteration-count: 1;
@@ -55,6 +73,12 @@ img{
 #pepe-lonely{
     width:80%;
     height:75%;
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
 }
 #pepe-lonely:hover{
     animation-name: glow;
@@ -66,6 +90,12 @@ img{
 #smug-frog{
     width:10%;
     height:10%;
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     opacity: 0;
 }
 #smug-frog:hover{
@@ -89,6 +119,7 @@ img{
 body{
     margin: 0;
     background-color:black;
+	display: flex;
 }
 main{
     background-color:black;
@@ -96,11 +127,16 @@ main{
     margin: 0;
 }
 div{
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     background-color:black;
     color:rgb(0, 255, 175);
-    margin: auto;
     border: 2px solid rgb(0, 255, 175);
-    font-size: 20px;
+    font-size: 5vw;
     text-align: center;
     justify-content: center;
     place-items: center;
@@ -110,11 +146,17 @@ div{
     padding: 5px;
 }
 section{
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     background-color:black;
     color:rgb(0, 255, 175);
     margin: auto;
     border: 2px solid rgb(0, 255, 175);
-    font-size: 20px;
+    font-size: 5vw;
     text-align: center;
     justify-content: center;
     place-items: center;
@@ -124,6 +166,12 @@ section{
     padding: 5px;
 }
 p{
+	position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
     text-align:center;
 }
 @keyframes slideLeft{
