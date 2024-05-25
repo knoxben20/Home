@@ -106,7 +106,7 @@ div{
     background-color:black;
     color:rgb(0, 255, 175);
     border: 2px solid rgb(0, 255, 175);
-    font-size: 5vw;
+    font-size: 3vw;
     text-align: center;
     justify-content: center;
     place-items: center;
@@ -121,7 +121,7 @@ section{
     color:rgb(0, 255, 175);
     margin: auto;
     border: 2px solid rgb(0, 255, 175);
-    font-size: 5vw;
+    font-size: 2vw;
     text-align: center;
     justify-content: center;
     place-items: center;
@@ -132,7 +132,7 @@ section{
 }
 p{
     margin: auto;
-    font-size: 8vw;
+    font-size: 5vw;
     text-align:center;
 }
 @keyframes slideLeft{
