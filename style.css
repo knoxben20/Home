@@ -19,8 +19,8 @@ a:visited{
     color: cyan;
 }
 img{
-    width:10%;
-    height:10%;
+    width:100px;
+    height:100px;
     margin: auto;
     align-content: center;
     place-items: center;
@@ -169,4 +169,10 @@ p{
 }
 @keyframes glow{
     50%{box-shadow: 0px 0px 50px yellow}
+}
+@media (max-width: 600px) {
+    img{
+        width: 25px;
+        height: 25px;
+    }
 }
