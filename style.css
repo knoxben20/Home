@@ -38,8 +38,8 @@ img{
     margin: auto;
 }
 #pepe{
-    width:5%;
-    height:10%;
+    width:75px;
+    height:75px;;
     margin: auto;
     padding: 10px;
     animation-name: rotate;
@@ -68,8 +68,8 @@ img{
     animation-play-state: running;
 }
 #smug-frog{
-    width:10%;
-    height:10%;
+    width:75px;
+    height:75px;
     margin: auto;
     opacity: 0;
 }
