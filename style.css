@@ -19,8 +19,8 @@ a:visited{
     color: cyan;
 }
 img{
-    width:100px;
-    height:100px;
+    width:25px;
+    height:25px;
     margin: auto;
     align-content: center;
     place-items: center;
@@ -172,7 +172,7 @@ p{
 }
 @media (max-width: 600px) {
     img{
-        width: 25px;
-        height: 25px;
+        width: 5px;
+        height: 5px;
     }
 }
