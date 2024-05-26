@@ -34,7 +34,7 @@ img{
 }
 #john{
     width:48%;
-    height:75%;
+    height:69%;
     margin: auto;
 }
 #pepe{
@@ -57,7 +57,7 @@ img{
 }
 #pepe-lonely{
     width:48%;
-    height:75%;
+    height:69%;
     margin: auto;
 }
 #pepe-lonely:hover{
@@ -119,7 +119,7 @@ div{
     place-items: center;
     align-items: center;
     width:100%;
-    height:20%;
+    height:25%;
     padding: 5px;
 }
 section{
@@ -134,7 +134,7 @@ section{
     place-items: center;
     align-items: center;
     width:100%;
-    height:80%;
+    height:75%;
     padding: 5px;
 }
 p{
