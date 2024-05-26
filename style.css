@@ -99,18 +99,21 @@ img{
     color:red;
 }
 body{
-    margin: 0;
     background-color:black;
+	margin: 0;
+    padding: 0;
+	width:100%;
+	overflow-x: hidden;
     display: flex;
 }
 main{
     background-color:black;
-    padding: 2px;
-    margin: 0;
+	width:100%;
 }
 div{
     margin: auto;
     background-color:black;
+	box-sizing: border-box;
     color:rgb(0, 255, 175);
     border: 2px solid rgb(0, 255, 175);
     font-size: 1vw;
@@ -119,7 +122,7 @@ div{
     place-items: center;
     align-items: center;
     width:100%;
-    height:25%;
+    height:20%;
     padding: 5px;
 }
 section{
@@ -134,7 +137,7 @@ section{
     place-items: center;
     align-items: center;
     width:100%;
-    height:75%;
+    height:80%;
     padding: 5px;
 }
 p{
