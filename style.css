@@ -91,7 +91,7 @@ img{
 #bird:hover{
     animation-name: slideDown;
     animation-duration: 2s;
-    animation-iteration-count: 1;
+    animation-iteration-count: 2;
     animation-direction: normal;
     animation-play-state: running;
 }
