@@ -137,12 +137,18 @@ section{
     place-items: center;
     align-items: center;
     width:100%;
-    height:88%;
+    height:78%;
     padding: 5px;
 }
 p{
     margin: auto;
-    font-size: 5vw;
+    background-color:grey;
+    color:black;
+    font-size: 1vw;
+    border: 2px solid black;
+    width:100%;
+    height:10%;
+    padding: 5px;
     text-align:center;
 }
 @keyframes slideLeft{
