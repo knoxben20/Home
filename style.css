@@ -113,7 +113,7 @@ div{
     background-color:black;
     color:rgb(0, 255, 175);
     border: 2px solid rgb(0, 255, 175);
-    font-size: 2vw;
+    font-size: 1vw;
     text-align: center;
     justify-content: center;
     place-items: center;
@@ -128,7 +128,7 @@ section{
     color:rgb(0, 255, 175);
     margin: auto;
     border: 2px solid rgb(0, 255, 175);
-    font-size: 2vw;
+    font-size: 1vw;
     text-align: center;
     justify-content: center;
     place-items: center;
